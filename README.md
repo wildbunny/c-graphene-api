@@ -19,6 +19,7 @@ var wallet = new GrapheneWallet(string.Join(",", both), "*", "*");
 (A)Synchronus generic api call:
 
 public async Taskc&lt;T&gt; ApiCallAsync&lt;T&gt;(GrapheneMethods method, GrapheneApi api, params object[] args)
+
 public T ApiCallc&lt;T&gt;(GrapheneMethods method, GrapheneApi api, params object[] args)
 
 GrapheneWallet provides many specialised API calls:
